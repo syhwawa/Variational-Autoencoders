@@ -6,3 +6,15 @@
 - A [Introduction course](https://www.youtube.com/watch?v=rZufA635dq4) about generative model from MIT.
 
 Variational Autoencoders (VAEs). In a nutshell, a VAE is an autoencoder whose encodings distribution is regularised during the training in order to ensure that its latent space has good properties allowing us to generate some new data. Moreover, the term “variational” comes from the close relation there is between the regularisation and the variational inference method in statistics.
+
+A variational autoencoder can be defined as being an autoencoder whose training is regularised to avoid overfitting and ensure that the latent space has good properties that enable generative process
+
+Key differences between VAEs and autoencoder:
+()
+
+Just as a standard autoencoder, a variational autoencoder is an architecture composed of both an encoder and a decoder and that is trained to minimise the reconstruction error between the encoded-decoded data and the initial data. However, in order to introduce some regularisation of the latent space, we proceed to a slight modification of the encoding-decoding process: instead of encoding an input as a single point, we encode it as a distribution over the latent space. The model is then trained as follows:
+1. the input is encoded as distribution over the latent space
+2. a point from the latent space is sampled from that distribution
+3. the sampled point is decoded and the reconstruction error can be computed
+4. the reconstruction error is backpropagated through the network
+
