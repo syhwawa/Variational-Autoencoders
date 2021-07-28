@@ -16,5 +16,5 @@ Just as a standard autoencoder, a variational autoencoder is an architecture com
 1. the input is encoded as distribution over the latent space
 2. a point from the latent space is sampled from that distribution
 3. the sampled point is decoded and the reconstruction error can be computed
-4. the reconstruction error is backpropagated through the network
+4. the reconstruction error is backpropagated through the network 
 
