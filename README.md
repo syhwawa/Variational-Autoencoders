@@ -6,7 +6,9 @@
 - A [Introduction course](https://www.youtube.com/watch?v=rZufA635dq4) about generative model from MIT.
 - [Unsupervised Learning VAE course](https://www.bilibili.com/video/BV1JE411g7XF?p=58) and [notes](https://datawhalechina.github.io/leeml-notes/#/chapter27/chapter27) from Dr.Hongyi Li(Mandarin)
 
-Before we explored VAEs, we need to __understand what is autoencoder__?![ ](https://github.com/syhwawa/Variational-Autoencoders/blob/main/images/autoencoder1.png)
+Before we explored VAEs, we need to __understand what is encoder,decoder, autoencoder__?![ ](https://github.com/syhwawa/Variational-Autoencoders/blob/main/images/autoencoder1.png)
+Data encoding is to map (sensory) input data to a different (often lower dimensional, compressed) feature representation. And Data Decoding is to map the feature representation back into the input data.
+
 Auto-encoder is a __complex mathematical model__ which trains on __unlabeled__ as well as unclassified data and is used to map the __input data__ to another compressed feature representation and from that feature representation __reconstructing back the input data__.
 
 ## Variational Autoencoders (VAEs). 
