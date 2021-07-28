@@ -9,7 +9,8 @@
 Before we explored VAEs, we need to __understand what is autoencoder__?![ ](https://github.com/syhwawa/Variational-Autoencoders/blob/main/images/autoencoder1.png)
 Auto-encoder is a __complex mathematical model__ which trains on __unlabeled__ as well as unclassified data and is used to map the __input data__ to another compressed feature representation and from that feature representation __reconstructing back the input data__.
 
-Variational Autoencoders (VAEs). In a nutshell, a VAE is an autoencoder whose encodings distribution is regularised during the training in order to ensure that its latent space has good properties allowing us to generate some new data. Moreover, the term “variational” comes from the close relation there is between the regularisation and the variational inference method in statistics.
+## Variational Autoencoders (VAEs). 
+In a nutshell, a VAE is an autoencoder whose encodings distribution is regularised during the training in order to ensure that its latent space has good properties allowing us to generate some new data. Moreover, the term “variational” comes from the close relation there is between the regularisation and the variational inference method in statistics.
 
 A variational autoencoder can be defined as being an autoencoder whose training is regularised to avoid overfitting and ensure that the latent space has good properties that enable generative process
 
