@@ -10,8 +10,9 @@
 Before we explored VAEs, we need to __understand what is encoder,decoder, autoencoder__?![ ](https://github.com/syhwawa/Variational-Autoencoders/blob/main/images/autoencoder1.png)
 Data encoding is to map (sensory) input data to a different (often lower dimensional, compressed) feature representation. And Data Decoding is to map the feature representation back into the input data.
 
-Auto-encoder is a __complex mathematical model__ which trains on __unlabeled__ as well as unclassified data and is used to map the __input data__ to another compressed feature representation and from that feature representation __reconstructing back the input data__.
+Auto-Encoder is an __unsupervised learning algorithm__ in which artificial neural network(ANN) is designed in a way to perform task of data encoding plus data decoding to reconstruct input.
 
+Techinically, auto-encoder is a __complex mathematical model__ which trains on __unlabeled__ as well as unclassified data and is used to map the __input data__ to another compressed feature representation and from that feature representation __reconstructing back the input data__.
 
 Autoencoders can be used to remove noise, perform image colourisation and various other purposes like Dimensionality Reduction, Image -Denoising and Feature Extraction.
 
