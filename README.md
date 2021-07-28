@@ -1,7 +1,7 @@
 # Variational-Autoencoders
 
 
-- The code was from this [repo](https://github.com/davidADSP/GDL_code).
+- The code for VAE was from this [repo](https://github.com/davidADSP/GDL_code).
 - A good summary [medium post](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73) of understanding VAE.
 - A [Introduction course](https://www.youtube.com/watch?v=rZufA635dq4) about generative model from MIT.
 - [Unsupervised Learning VAE course](https://www.bilibili.com/video/BV1JE411g7XF?p=58) and [notes](https://datawhalechina.github.io/leeml-notes/#/chapter27/chapter27) from Dr.Hongyi Li(Mandarin)
