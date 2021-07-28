@@ -6,7 +6,7 @@
 - A [Introduction course](https://www.youtube.com/watch?v=rZufA635dq4) about generative model from MIT.
 - [Unsupervised Learning VAE course](https://www.bilibili.com/video/BV1JE411g7XF?p=58) and [notes](https://datawhalechina.github.io/leeml-notes/#/chapter27/chapter27) from Dr.Hongyi Li(Mandarin)
 
-Before we explored VAEs, we need to __understand what is autoencoder__?![ ](https://github.com/syhwawa/Variational-Autoencoders/blob/main/images/autoencoder.png)
+Before we explored VAEs, we need to __understand what is autoencoder__?![ ](https://github.com/syhwawa/Variational-Autoencoders/blob/main/images/autoencoder1.png)
 Auto-encoder is a __complex mathematical model__ which trains on __unlabeled__ as well as unclassified data and is used to map the __input data__ to another compressed feature representation and from that feature representation __reconstructing back the input data__.
 
 Variational Autoencoders (VAEs). In a nutshell, a VAE is an autoencoder whose encodings distribution is regularised during the training in order to ensure that its latent space has good properties allowing us to generate some new data. Moreover, the term “variational” comes from the close relation there is between the regularisation and the variational inference method in statistics.
